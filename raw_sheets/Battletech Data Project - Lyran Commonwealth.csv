@@ -1,0 +1,32 @@
+Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro
+Locust LCT-1S,20,440,18,Scout,TR:SW RS:SW,Introductory,2567
+Commando COM-1B,25,616,17,Striker,TR:3050U RS:3050Uu-I,Introductory,3015
+Commando COM-1D,25,558,17,Striker,TR:SW RS:SW,Introductory,2480
+Commando COM-2D,25,541,17,Striker,TR:SW RSFP:Wave 1,Introductory,2486
+Commando COM-7X,25,623,21,Striker,Shrap16 ShrapRS,Introductory,3018
+Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787
+Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967
+"Firestarter FS9-M ""Mirage""",35,798,21,Scout,TR:SW RS:SW,Introductory,2893
+Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759
+Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676
+Sentinel STN-3K,40,652,19,Scout,TR:SW RSFP:Wave 2,Introductory,2830
+Sentinel STN-3KA,40,847,21,Scout,TR:SW RS:SW,Introductory,2830
+Sentinel STN-3KB,40,823,23,Striker,TR:SW RS:SW,Introductory,2830
+Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777
+Griffin GRF-1RG,55,"1,167",33,Skirmisher,RGv1 RG01,Introductory,2597
+Griffin GRF-1S,55,"1,253",31,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2857
+Thunderbolt TDR-5SS,65,"1,337",35,Brawler,TR:SW RS:SW,Introductory,2930
+Archer ARC-2S,70,"1,393",36,Missile Boat,TR:3039 RS:3039u,Introductory,2915
+Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809
+Flashman FLS-7K,75,"1,480",36,Brawler,TR:SW RSFP:Wave 2,Introductory,2796
+Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665
+Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652
+Striker STC-2C,80,"1,488",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2571
+Striker STC-2S,80,"1,466",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2845
+Victor VTR-9S,80,"1,360",36,Skirmisher,TR:SW RS:SW,Introductory,2998
+Zeus ZEU-6A,80,"1,405",35,Brawler,TR:SW RS:SW,Introductory,2940
+Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898
+Zeus ZEU-6Y,80,"1,323",34,Sniper,XTR:SW XTR:SW,Experimental,2922
+Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866
+Highlander HGN-733C,90,"1,857",44,Juggernaut,TR:SW RS:SW,Introductory,2866
+Highlander HGN-733P,90,"1,865",46,Sniper,TR:SW RS:SW,Introductory,2866

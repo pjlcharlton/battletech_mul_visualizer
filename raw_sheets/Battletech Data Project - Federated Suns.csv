@@ -1,0 +1,32 @@
+Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro
+Hornet HNT-151,20,488,14,Striker,TR:3039 RS:3039u,Introductory,2760
+Hornet HNT-152,20,475,17,Striker,TR:3039 RS:3039u,Introductory,2997
+Locust LCT-1M,20,424,21,Missile Boat,TR:SW RS:SW,Introductory,2571
+Wasp WSP-1D,20,403,15,Scout,TR:3039 RS:3039u,Introductory,2823
+Spider SDR-5D,30,524,21,Scout,TR:SW RS:SW,Introductory,2853
+SuburbanMech UM-R90,30,773,19,Ambusher,Shrap04 ShrapRS,Introductory,3018
+Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787
+Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967
+Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759
+Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676
+Clint CLNT-1-2R,40,707,19,Striker,TR:SW RS:SW,Introductory,2607
+Clint CLNT-2-4T,40,619,16,Sniper,TR:SW RS:SW,Introductory,Unknown
+Phoenix Hawk PXH-1D,45,"1,083",26,Skirmisher,TR:3039 RS:3039u,Introductory,2586
+Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777
+Kintaro KTO-18,55,"1,187",36,Skirmisher,TR:SW RS:SW,Introductory,2792
+Shadow Hawk SHD-2D,55,899,26,Striker,TR:SW RS:SW,Introductory,2796
+Wolverine WVR-6D,55,"1,115",29,Skirmisher,TR:SW RS:SW,Introductory,2612
+Ostroc OSR-9C,60,"1,230",29,Juggernaut,RGv1 RG21,Introductory,2905
+Ostsol OTL-4F,60,"1,264",31,Skirmisher,TR:3039 RS:3039u,Introductory,2871
+Crusader CRD-3D,65,"1,338",34,Missile Boat,TR:3039 RS:3039u,Introductory,2756
+JagerMech JM6-A,65,"1,122",27,Missile Boat,TR:SW RS:SW,Introductory,2778
+JagerMech JM6-S,65,901,26,Sniper,TR:SW RS:SW,Introductory,2774
+Thunderbolt TDR-5D,65,"1,231",35,Brawler,TR:SW RS:SW,Introductory,2821
+Warhammer WHM-6D,70,"1,471",36,Brawler,TR:3039 RS:3039u,Introductory,2835
+Warhammer WHM-6K,70,"1,305",32,Brawler,TR:3039 RS:3039u,Introductory,2830
+Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809
+Marauder MAD-3D,75,"1,470",35,Brawler,TR:3039 RS:3039u,Introductory,2834
+Victor VTR-9A,80,"1,236",31,Skirmisher,TR:SW RS:SW,Introductory,2508
+Victor VTR-9A1,80,"1,302",33,Skirmisher,TR:SW RS:SW,Introductory,2508
+Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898
+BattleMaster BLR-1D,85,"1,522",40,Brawler,TR:SW RS:SW,Introductory,2867

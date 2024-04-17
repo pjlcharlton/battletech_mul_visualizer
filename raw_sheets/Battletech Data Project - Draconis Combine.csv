@@ -1,0 +1,26 @@
+Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro
+Wasp WSP-1K,20,376,14,Scout,TR:3039 RS:3039u,Introductory,2818
+Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856
+Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856
+Spider SDR-5K,30,503,21,Scout,TR:SW RS:SW,Introductory,2850
+Jenner JR7-F,35,"1,011",32,Striker,TR:SW RS:SW,Introductory,2784
+Panther PNT-9ALAG,35,804,22,Striker,TR:SW TP:39V,Introductory,2950
+Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759
+Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676
+Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798
+Whitworth WTH-1S,40,917,25,Skirmisher,TR:SW RS:SW,Introductory,2610
+Phoenix Hawk PXH-1K,45,"1,073",29,Skirmisher,TR:3039 RS:3039u,Introductory,2603
+Shadow Hawk SHD-2K,55,"1,147",30,Sniper,TR:SW RS:SW,Introductory,2803
+Wolverine WVR-6K,55,"1,248",35,Skirmisher,TR:SW RS:SW,Introductory,2598
+Dragon DRG-1C,60,"1,215",35,Skirmisher,TR:SW RS:SW,Introductory,2752
+Dragon DRG-1N,60,"1,125",32,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2754
+Lancelot LNC25-02,60,"1,236",30,Brawler,TR:SW RSFP:Wave 2,Introductory,2864
+Ostroc OSR-9C,60,"1,230",29,Juggernaut,RGv1 RG21,Introductory,2905
+Catapult CPLT-K2,65,"1,319",32,Sniper,TR:SW RSFP:Wave 1,Introductory,2603
+Crusader CRD-3K,65,"1,290",34,Missile Boat,TR:3039 RS:3039u,Introductory,2765
+Archer ARC-2K,70,"1,356",34,Missile Boat,TR:3039 RS:3039u,Introductory,2856
+Warhammer WHM-6K,70,"1,305",32,Brawler,TR:3039 RS:3039u,Introductory,2830
+Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809
+Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665
+Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835
+Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866

@@ -1,0 +1,26 @@
+Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro
+Flea FLE-14,15,270,14,Scout,XTR:SW XTR:SW,Experimental,2519
+Flea FLE-15,20,430,14,Scout,TR:SW RS:SW,Introductory,2523
+Flea FLE-4,20,432,12,Scout,TR:SW RS:SW,Introductory,2501
+Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856
+Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856
+Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676
+"Hermes II HER-2M ""Mercury""",40,910,33,Striker,TR:SW RS:SW,Introductory,2802
+Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798
+Trebuchet TBT-5J,50,"1,191",30,Skirmisher,TR:SW RS:SW,Introductory,2850
+Wolverine WVR-6M,55,"1,291",32,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2816
+Ostroc OSR-2M,60,"1,239",29,Skirmisher,TR:3039 RS:3039u,Introductory,2793
+Exterminator EXT-4A,65,"1,372",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,3007
+Guillotine GLT-4P,70,"1,376",34,Skirmisher,TR:SW RS:SW,Introductory,2833
+Viper VP-1,70,"1,609",34,Brawler,RG32 RG32,Standard,2832
+Viper VP-5,70,"1,539",36,Brawler,RG32 RG32,Introductory,2958
+Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809
+Black Knight BL-7-KNT-L,75,"1,409",33,Brawler,TR:SW RS:SW,Introductory,2809
+Marauder MAD-3M,75,"1,335",34,Brawler,TR:3039 RS:3039u,Introductory,2873
+Orion ON1-V-DC,75,"1,310",35,Brawler,MWC RS:3039u,Advanced,2913
+Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665
+Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652
+Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835
+Banshee BNC-3M,95,"1,595",39,Brawler,TR:SW RS:SW,Introductory,2579
+Banshee BNC-3Q,95,"1,394",37,Juggernaut,TR:SW RS:3039u,Introductory,2915
+Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954
