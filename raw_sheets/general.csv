@@ -1,0 +1,87 @@
+Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro
+Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499
+Locust LCT-3V,20,490,19,Scout,TR:SW RS:SW,Introductory,3004
+Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581
+Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479
+Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471
+Mongoose MON-67,25,741,27,Striker,TR:SW RSFP:Wave 2,Introductory,2830
+Javelin JVN-10A,30,653,17,Striker,TR:SW RS:SW,Introductory,2752
+"Javelin JVN-10F ""Fire Javelin""",30,835,22,Striker,TR:SW RS:SW,Introductory,2819
+Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751
+Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650
+UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675
+Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703
+Jenner JR7-D,35,875,26,Striker,TR:SW RSFP:Wave 2,Introductory,2785
+Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600
+Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740
+Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608
+Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777
+Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778
+Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689
+Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757
+Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568
+Wyvern WVE-6N,45,"1,005",27,Skirmisher,TR:3039 RS:3039u,Introductory,2821
+Centurion CN9-A,50,945,28,Brawler,TR:SW RSFP:Wave 2,Introductory,2801
+Centurion CN9-AH,50,945,29,Juggernaut,TR:SW RS:SW,Introductory,2874
+Centurion CN9-AL,50,"1,057",28,Brawler,TR:SW RS:SW,Introductory,2915
+Chameleon TRC-4B,50,999,21,Scout,RGv1 RG25,Introductory,2510
+Crab CRB-20,50,"1,143",29,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2810
+Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572
+Hunchback HBK-4H,50,"1,067",28,Juggernaut,TR:SW RS:SW,Introductory,2819
+Hunchback HBK-4J,50,"1,143",31,Missile Boat,TR:SW RS:SW,Introductory,2856
+Hunchback HBK-4N,50,"1,087",31,Brawler,TR:SW RS:SW,Introductory,2920
+Hunchback HBK-4P,50,"1,138",31,Juggernaut,TR:SW RS:SW,Introductory,2937
+Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701
+Phoenix Hawk LAM PHX-HK2M,50,,31,Striker,TR:3085 RS:3085u-CE,Experimental,2953
+Trebuchet TBT-5N,50,"1,191",29,Missile Boat,TR:SW RSFP:Wave 2,Introductory,2799
+Trebuchet TBT-5S,50,984,33,Skirmisher,TR:SW RS:SW,Introductory,2864
+Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570
+Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492
+Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570
+Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550
+Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575
+Champion CHP-2N,60,"1,116",30,Skirmisher,TR:3039 RS:3039u,Introductory,2810
+Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511
+Ostroc OSR-2L,60,"1,233",31,Skirmisher,TR:3039 RS:3039u,Introductory,2884
+Ostroc OSR-3C,60,"1,288",30,Skirmisher,TR:3039 RS:3039u,Introductory,2876
+Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694
+Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779
+Quickdraw QKD-4H,60,"1,242",30,Skirmisher,TR:SW RS:SW,Introductory,2847
+Quickdraw QKD-5A,60,"1,196",31,Skirmisher,TR:SW RS:SW,Introductory,3002
+Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770
+Bombardier BMB-10D,65,"1,340",35,Missile Boat,TR:SW RS:SW,Introductory,2866
+Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561
+Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752
+Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505
+Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474
+Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780
+Guillotine GLT-4L,70,"1,400",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2825
+Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515
+Marauder MAD-3R,75,"1,363",35,Sniper,TR:3039 RSFP:Wave 1,Introductory,2819
+Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525
+Orion ON1-V,75,"1,298",35,Brawler,TR:SW RS:SW,Introductory,2799
+Orion ON1-VA,75,"1,328",39,Juggernaut,TR:SW RS:SW,Introductory,2901
+Stalker STK-4P,75,"1,461",39,Juggernaut,TR:SW RS:3039u,Introductory,2998
+Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665
+Awesome AWS-8R,80,"1,470",38,Missile Boat,TR:SW RS:SW,Introductory,2683
+Awesome AWS-8T,80,"1,593",39,Missile Boat,TR:SW RS:SW,Introductory,2815
+Awesome AWS-8V,80,"1,510",39,Sniper,TR:SW RS:SW,Introductory,2980
+Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510
+BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633
+BattleMaster BLR-1G-DC,85,"1,494",41,Brawler,MWC RS:3039u,Advanced,2633
+Crockett CRK-5003-0,85,"1,704",41,Juggernaut,TR:3025r None,Introductory,2881
+Longbow LGB-0W,85,"1,337",36,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2529
+Longbow LGB-0W2,85,"1,410",38,Missile Boat,RGv1 RG20,Introductory,2531
+Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610
+Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615
+Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594
+Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638
+Stalker STK-4N,85,"1,558",41,Juggernaut,TR:SW RS:SW,Introductory,2876
+Cyclops CP-10-HQ,90,"1,113",32,Juggernaut,TR:SW RS:3039u,Experimental,2753
+Cyclops CP-10-Q,90,"1,584",44,Missile Boat,TR:SW RS:SW,Introductory,2801
+Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710
+Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475
+Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755
+Atlas AS7-D-DC,100,"1,858",52,Juggernaut,MWC RS:3039u,Advanced,2776
+Atlas AS7-RS,100,"1,849",48,Juggernaut,TR:SW RS:SW,Introductory,2892
+King Crab KGC-0000,100,"1,810",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2815
