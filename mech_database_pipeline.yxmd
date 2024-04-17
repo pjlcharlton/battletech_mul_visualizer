@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>general.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\general.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;IS&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="726" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capellan_confederation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\capellan_confederation.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;CC&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>draconis_combine.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\draconis_combine.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;DC&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>federated_suns.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\federated_suns.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" size="2147483647" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;FS&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>free_worlds_league.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\free_worlds_league.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;FWL&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>lyran_commonwealth.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\lyran_commonwealth.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;LC&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>comstar.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\comstar.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;CS&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>mercenary.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="Tons" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="BV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="PV" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="Role" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="TRO/RS" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="Rules" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+            <Field name="Intro" size="254" source="File: D:\Users\pjlch\Documents\Portfolio\battletech_project\raw_sheets\mercenary.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Tons] &lt;= 35 &#xA;THEN &quot;Light&quot; &#xA;ELSEIF [Tons] &lt;= 55 &#xA;THEN &quot;Medium&quot;&#xA;ELSEIF [Tons] &lt;= 75&#xA;THEN &quot;Heavy&quot;&#xA;ELSE &quot;Assault&quot;  &#xA;ENDIF" field="Weight Class" size="2147483647" type="V_String" />
+            <FormulaField expression="&quot;Merc&quot;" field="Faction" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Weight Class = IF [Tons] &lt;= 35 
+THEN "Light" 
+ELSEIF [Tons] &lt;= 55 
+THEN "Medium"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="870" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\Users\pjlch\Documents\Portfolio\battletech_project\processed_mul\mul_data.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>mul_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNumber([Intro])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNumber([Intro])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Tons" selected="True" type="Int16" size="2" />
+            <SelectField field="BV" selected="True" size="2147483647" />
+            <SelectField field="PV" selected="True" size="2147483647" />
+            <SelectField field="Role" selected="True" />
+            <SelectField field="TRO/RS" selected="True" />
+            <SelectField field="Rules" selected="True" />
+            <SelectField field="Intro" selected="True" size="2147483647" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNumber([Intro])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNumber([Intro])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Intro" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>mech_database_pipeline</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4691fddf-c28c-4f5b-86d1-9dd1286bf249" />
+      <Telemetry>
+        <PreviousWorkflowId value="3e1c1efa-966f-40b1-870f-6c00d5c4383c" />
+        <OriginWorkflowId value="3e1c1efa-966f-40b1-870f-6c00d5c4383c" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
