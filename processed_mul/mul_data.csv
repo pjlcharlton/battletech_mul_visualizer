@@ -1,363 +1,421 @@
-Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro,Weight Class,Faction
-Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,IS
-Locust LCT-3V,20,490,19,Scout,TR:SW RS:SW,Introductory,3004,Light,IS
-Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,IS
-Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,IS
-Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,IS
-Mongoose MON-67,25,741,27,Striker,TR:SW RSFP:Wave 2,Introductory,2830,Light,IS
-Javelin JVN-10A,30,653,17,Striker,TR:SW RS:SW,Introductory,2752,Light,IS
-"Javelin JVN-10F ""Fire Javelin""",30,835,22,Striker,TR:SW RS:SW,Introductory,2819,Light,IS
-Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,IS
-Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,IS
-UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,IS
-Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,IS
-Jenner JR7-D,35,875,26,Striker,TR:SW RSFP:Wave 2,Introductory,2785,Light,IS
-Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,IS
-Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,IS
-Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,IS
-Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,IS
-Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,IS
-Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,IS
-Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,IS
-Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,IS
-Wyvern WVE-6N,45,"1,005",27,Skirmisher,TR:3039 RS:3039u,Introductory,2821,Medium,IS
-Centurion CN9-A,50,945,28,Brawler,TR:SW RSFP:Wave 2,Introductory,2801,Medium,IS
-Centurion CN9-AH,50,945,29,Juggernaut,TR:SW RS:SW,Introductory,2874,Medium,IS
-Centurion CN9-AL,50,"1,057",28,Brawler,TR:SW RS:SW,Introductory,2915,Medium,IS
-Chameleon TRC-4B,50,999,21,Scout,RGv1 RG25,Introductory,2510,Medium,IS
-Crab CRB-20,50,"1,143",29,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2810,Medium,IS
-Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,IS
-Hunchback HBK-4H,50,"1,067",28,Juggernaut,TR:SW RS:SW,Introductory,2819,Medium,IS
-Hunchback HBK-4J,50,"1,143",31,Missile Boat,TR:SW RS:SW,Introductory,2856,Medium,IS
-Hunchback HBK-4N,50,"1,087",31,Brawler,TR:SW RS:SW,Introductory,2920,Medium,IS
-Hunchback HBK-4P,50,"1,138",31,Juggernaut,TR:SW RS:SW,Introductory,2937,Medium,IS
-Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,IS
-Trebuchet TBT-5N,50,"1,191",29,Missile Boat,TR:SW RSFP:Wave 2,Introductory,2799,Medium,IS
-Trebuchet TBT-5S,50,984,33,Skirmisher,TR:SW RS:SW,Introductory,2864,Medium,IS
-Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,IS
-Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,IS
-Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,IS
-Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,IS
-Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,IS
-Champion CHP-2N,60,"1,116",30,Skirmisher,TR:3039 RS:3039u,Introductory,2810,Heavy,IS
-Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,IS
-Ostroc OSR-2L,60,"1,233",31,Skirmisher,TR:3039 RS:3039u,Introductory,2884,Heavy,IS
-Ostroc OSR-3C,60,"1,288",30,Skirmisher,TR:3039 RS:3039u,Introductory,2876,Heavy,IS
-Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,IS
-Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,IS
-Quickdraw QKD-4H,60,"1,242",30,Skirmisher,TR:SW RS:SW,Introductory,2847,Heavy,IS
-Quickdraw QKD-5A,60,"1,196",31,Skirmisher,TR:SW RS:SW,Introductory,3002,Heavy,IS
-Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,IS
-Bombardier BMB-10D,65,"1,340",35,Missile Boat,TR:SW RS:SW,Introductory,2866,Heavy,IS
-Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,IS
-Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,IS
-Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,IS
-Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,IS
-Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,IS
-Guillotine GLT-4L,70,"1,400",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2825,Heavy,IS
-Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,IS
-Marauder MAD-3R,75,"1,363",35,Sniper,TR:3039 RSFP:Wave 1,Introductory,2819,Heavy,IS
-Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,IS
-Orion ON1-V,75,"1,298",35,Brawler,TR:SW RS:SW,Introductory,2799,Heavy,IS
-Orion ON1-VA,75,"1,328",39,Juggernaut,TR:SW RS:SW,Introductory,2901,Heavy,IS
-Stalker STK-4P,75,"1,461",39,Juggernaut,TR:SW RS:3039u,Introductory,2998,Heavy,IS
-Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,IS
-Awesome AWS-8R,80,"1,470",38,Missile Boat,TR:SW RS:SW,Introductory,2683,Assault,IS
-Awesome AWS-8T,80,"1,593",39,Missile Boat,TR:SW RS:SW,Introductory,2815,Assault,IS
-Awesome AWS-8V,80,"1,510",39,Sniper,TR:SW RS:SW,Introductory,2980,Assault,IS
-Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,IS
-BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,IS
-BattleMaster BLR-1G-DC,85,"1,494",41,Brawler,MWC RS:3039u,Advanced,2633,Assault,IS
-Crockett CRK-5003-0,85,"1,704",41,Juggernaut,TR:3025r None,Introductory,2881,Assault,IS
-Longbow LGB-0W,85,"1,337",36,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2529,Assault,IS
-Longbow LGB-0W2,85,"1,410",38,Missile Boat,RGv1 RG20,Introductory,2531,Assault,IS
-Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,IS
-Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,IS
-Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,IS
-Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,IS
-Stalker STK-4N,85,"1,558",41,Juggernaut,TR:SW RS:SW,Introductory,2876,Assault,IS
-Cyclops CP-10-HQ,90,"1,113",32,Juggernaut,TR:SW RS:3039u,Experimental,2753,Assault,IS
-Cyclops CP-10-Q,90,"1,584",44,Missile Boat,TR:SW RS:SW,Introductory,2801,Assault,IS
-Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,IS
-Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,IS
-Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,IS
-Atlas AS7-D-DC,100,"1,858",52,Juggernaut,MWC RS:3039u,Advanced,2776,Assault,IS
-Atlas AS7-RS,100,"1,849",48,Juggernaut,TR:SW RS:SW,Introductory,2892,Assault,IS
-King Crab KGC-0000,100,"1,810",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2815,Assault,IS
-Wasp WSP-1K,20,376,14,Scout,TR:3039 RS:3039u,Introductory,2818,Light,DC
-Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856,Light,DC
-Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856,Light,DC
-Spider SDR-5K,30,503,21,Scout,TR:SW RS:SW,Introductory,2850,Light,DC
-Jenner JR7-F,35,"1,011",32,Striker,TR:SW RS:SW,Introductory,2784,Light,DC
-Panther PNT-9ALAG,35,804,22,Striker,TR:SW TP:39V,Introductory,2950,Light,DC
-Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,DC
-Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,DC
-Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,DC
-Whitworth WTH-1S,40,917,25,Skirmisher,TR:SW RS:SW,Introductory,2610,Medium,DC
-Phoenix Hawk PXH-1K,45,"1,073",29,Skirmisher,TR:3039 RS:3039u,Introductory,2603,Medium,DC
-Shadow Hawk SHD-2K,55,"1,147",30,Sniper,TR:SW RS:SW,Introductory,2803,Medium,DC
-Wolverine WVR-6K,55,"1,248",35,Skirmisher,TR:SW RS:SW,Introductory,2598,Medium,DC
-Dragon DRG-1C,60,"1,215",35,Skirmisher,TR:SW RS:SW,Introductory,2752,Heavy,DC
-Dragon DRG-1N,60,"1,125",32,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2754,Heavy,DC
-Lancelot LNC25-02,60,"1,236",30,Brawler,TR:SW RSFP:Wave 2,Introductory,2864,Heavy,DC
-Ostroc OSR-9C,60,"1,230",29,Juggernaut,RGv1 RG21,Introductory,2905,Heavy,DC
-Catapult CPLT-K2,65,"1,319",32,Sniper,TR:SW RSFP:Wave 1,Introductory,2603,Heavy,DC
-Crusader CRD-3K,65,"1,290",34,Missile Boat,TR:3039 RS:3039u,Introductory,2765,Heavy,DC
-Archer ARC-2K,70,"1,356",34,Missile Boat,TR:3039 RS:3039u,Introductory,2856,Heavy,DC
-Warhammer WHM-6K,70,"1,305",32,Brawler,TR:3039 RS:3039u,Introductory,2830,Heavy,DC
-Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,DC
-Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,DC
-Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835,Assault,DC
-Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866,Assault,DC
-Flea FLE-14,15,270,14,Scout,XTR:SW XTR:SW,Experimental,2519,Light,FWL
-Flea FLE-15,20,430,14,Scout,TR:SW RS:SW,Introductory,2523,Light,FWL
-Flea FLE-4,20,432,12,Scout,TR:SW RS:SW,Introductory,2501,Light,FWL
-Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856,Light,FWL
-Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856,Light,FWL
-Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,FWL
-"Hermes II HER-2M ""Mercury""",40,910,33,Striker,TR:SW RS:SW,Introductory,2802,Medium,FWL
-Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,FWL
-Trebuchet TBT-5J,50,"1,191",30,Skirmisher,TR:SW RS:SW,Introductory,2850,Medium,FWL
-Wolverine WVR-6M,55,"1,291",32,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2816,Medium,FWL
-Ostroc OSR-2M,60,"1,239",29,Skirmisher,TR:3039 RS:3039u,Introductory,2793,Heavy,FWL
-Exterminator EXT-4A,65,"1,372",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,3007,Heavy,FWL
-Guillotine GLT-4P,70,"1,376",34,Skirmisher,TR:SW RS:SW,Introductory,2833,Heavy,FWL
-Viper VP-1,70,"1,609",34,Brawler,RG32 RG32,Standard,2832,Heavy,FWL
-Viper VP-5,70,"1,539",36,Brawler,RG32 RG32,Introductory,2958,Heavy,FWL
-Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,FWL
-Black Knight BL-7-KNT-L,75,"1,409",33,Brawler,TR:SW RS:SW,Introductory,2809,Heavy,FWL
-Marauder MAD-3M,75,"1,335",34,Brawler,TR:3039 RS:3039u,Introductory,2873,Heavy,FWL
-Orion ON1-V-DC,75,"1,310",35,Brawler,MWC RS:3039u,Advanced,2913,Heavy,FWL
-Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,FWL
-Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,FWL
-Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835,Assault,FWL
-Banshee BNC-3M,95,"1,595",39,Brawler,TR:SW RS:SW,Introductory,2579,Assault,FWL
-Banshee BNC-3Q,95,"1,394",37,Juggernaut,TR:SW RS:3039u,Introductory,2915,Assault,FWL
-Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954,Assault,FWL
-Locust LCT-1S,20,440,18,Scout,TR:SW RS:SW,Introductory,2567,Light,LC
-Commando COM-1B,25,616,17,Striker,TR:3050U RS:3050Uu-I,Introductory,3015,Light,LC
-Commando COM-1D,25,558,17,Striker,TR:SW RS:SW,Introductory,2480,Light,LC
-Commando COM-2D,25,541,17,Striker,TR:SW RSFP:Wave 1,Introductory,2486,Light,LC
-Commando COM-7X,25,623,21,Striker,Shrap16 ShrapRS,Introductory,3018,Light,LC
-Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787,Light,LC
-Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967,Light,LC
-"Firestarter FS9-M ""Mirage""",35,798,21,Scout,TR:SW RS:SW,Introductory,2893,Light,LC
-Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,LC
-Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,LC
-Sentinel STN-3K,40,652,19,Scout,TR:SW RSFP:Wave 2,Introductory,2830,Medium,LC
-Sentinel STN-3KA,40,847,21,Scout,TR:SW RS:SW,Introductory,2830,Medium,LC
-Sentinel STN-3KB,40,823,23,Striker,TR:SW RS:SW,Introductory,2830,Medium,LC
-Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777,Medium,LC
-Griffin GRF-1RG,55,"1,167",33,Skirmisher,RGv1 RG01,Introductory,2597,Medium,LC
-Griffin GRF-1S,55,"1,253",31,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2857,Medium,LC
-Thunderbolt TDR-5SS,65,"1,337",35,Brawler,TR:SW RS:SW,Introductory,2930,Heavy,LC
-Archer ARC-2S,70,"1,393",36,Missile Boat,TR:3039 RS:3039u,Introductory,2915,Heavy,LC
-Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,LC
-Flashman FLS-7K,75,"1,480",36,Brawler,TR:SW RSFP:Wave 2,Introductory,2796,Heavy,LC
-Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,LC
-Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,LC
-Striker STC-2C,80,"1,488",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2571,Assault,LC
-Striker STC-2S,80,"1,466",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2845,Assault,LC
-Victor VTR-9S,80,"1,360",36,Skirmisher,TR:SW RS:SW,Introductory,2998,Assault,LC
-Zeus ZEU-6A,80,"1,405",35,Brawler,TR:SW RS:SW,Introductory,2940,Assault,LC
-Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898,Assault,LC
-Zeus ZEU-6Y,80,"1,323",34,Sniper,XTR:SW XTR:SW,Experimental,2922,Assault,LC
-Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866,Assault,LC
-Highlander HGN-733C,90,"1,857",44,Juggernaut,TR:SW RS:SW,Introductory,2866,Assault,LC
-Highlander HGN-733P,90,"1,865",46,Sniper,TR:SW RS:SW,Introductory,2866,Assault,LC
-Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,CS
-Mercury MCY-99,20,586,22,Scout,TR:SW RSFP:Wave 2,Standard,2742,Light,CS
-Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,CS
-Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,CS
-Thorn THE-N,20,546,18,Striker,TR:SW RS:SW,Standard,2549,Light,CS
-Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,CS
-Mongoose MON-66,25,758,30,Scout,TR:SW RSFP:Wave 2,Standard,2660,Light,CS
-Falcon FLC-4N,30,610,19,Scout,TR:SW RS:SW,Introductory,2582,Light,CS
-Hermes HER-1S,30,716,25,Scout,TR:SW RS:SW,Standard,2632,Light,CS
-Hussar HSR-200-D,30,636,18,Scout,TR:SW RS:SW,Standard,2620,Light,CS
-Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,CS
-Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,CS
-UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,CS
-Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,CS
-Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,CS
-Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,CS
-Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,CS
-Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,CS
-Sentinel STN-3L,40,717,23,Striker,TR:SW RSFP:Wave 2,Standard,2652,Medium,CS
-Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,CS
-Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,CS
-Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,CS
-Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,CS
-Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,CS
-Chameleon TRC-4B,50,999,21,Scout,RGv1 RG25,Introductory,2510,Medium,CS
-Crab CRB-27,50,"1,198",29,Skirmisher,TR:SW RSFP:Wave 2,Standard,2719,Medium,CS
-Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,CS
-Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,CS
-Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,CS
-Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,CS
-Griffin GRF-2N,55,"1,606",38,Skirmisher,RGv1 RG01,Standard,2751,Medium,CS
-Kintaro KTO-19,55,"1,160",36,Skirmisher,TR:SW RS:SW,Standard,2587,Medium,CS
-Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,CS
-Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,CS
-Shadow Hawk SHD-2Hb,55,"1,354",34,Skirmisher,RGv1 RG12,Standard,2752,Medium,CS
-Shadow Hawk SHD-3H2,55,"1,112",29,Brawler,Shrap14 ShrapRS,Advanced,2775,Medium,CS
-Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,CS
-Champion CHP-1N,60,"1,233",34,Skirmisher,TR:3050U RS:3050Uu-C,Standard,2602,Heavy,CS
-Champion CHP-1N2,60,"1,233",35,Skirmisher,TR:3039 RS:3039u,Standard,2667,Heavy,CS
-Lancelot LNC25-01,60,"1,422",33,Skirmisher,TR:SW RSFP:Wave 2,Standard,2581,Heavy,CS
-Lancelot LNC25-03,60,"1,360",36,Skirmisher,TR:SW RS:SW,Standard,2876,Heavy,CS
-Lancelot LNC25-05,60,"1,365",32,Skirmisher,TR:SW RS:SW,Standard,2594,Heavy,CS
-Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,CS
-Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,CS
-Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,CS
-Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,CS
-Bombardier BMB-12D,65,"1,480",39,Missile Boat,TR:SW RS:SW,Standard,2735,Heavy,CS
-Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,CS
-Catapult CPLT-C1b,65,"1,570",37,Missile Boat,TR:SW RS:SW,Standard,2688,Heavy,CS
-Cestus CTS-6Y,65,"1,701",37,Brawler,TR:3058U RS:3058Uu-C,Standard,2766,Heavy,CS
-Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,CS
-Exterminator EXT-4D,65,"1,385",37,Skirmisher,TR:SW RSFP:Wave 2,Standard,2630,Heavy,CS
-JagerMech JM6-S,65,901,26,Sniper,TR:SW RS:SW,Introductory,2774,Heavy,CS
-Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,CS
-Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,CS
-Excalibur EXC-B2,70,"1,533",37,Skirmisher,TR:SW RS:SW,Standard,2620,Heavy,CS
-Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,CS
-Guillotine GLT-3N,70,"1,418",35,Skirmisher,TR:SW RSFP:Wave 2,Standard,2499,Heavy,CS
-Shootist ST-8A,70,"1,507",41,Brawler,TR:SW RS:SW,Standard,2621,Heavy,CS
-Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,CS
-Black Knight BL-6-KNT,75,"1,551",39,Brawler,TR:SW RSFP:Wave 2,Standard,2578,Heavy,CS
-Black Knight BL-6b-KNT,75,"1,627",42,Brawler,TR:3050U RS:3050Uu-C,Standard,2751,Heavy,CS
-Flashman FLS-8K,75,"1,779",41,Skirmisher,TR:SW RSFP:Wave 2,Standard,2701,Heavy,CS
-Marauder MAD-1R,75,"1,420",37,Sniper,TR:3075 RS:3075u-AW,Standard,2612,Heavy,CS
-Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,CS
-Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,CS
-Awesome AWS-8R,80,"1,470",38,Missile Boat,TR:SW RS:SW,Introductory,2683,Assault,CS
-Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,CS
-Spartan SPT-N2,80,"1,605",43,Skirmisher,TR:3058U RSFP:SI,Standard,2765,Assault,CS
-Thug THG-11E,80,"1,640",41,Brawler,TR:SW RSFP:Wave 2,Standard,2572,Assault,CS
-Victor VTR-9A,80,"1,236",31,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CS
-Victor VTR-9A1,80,"1,302",33,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CS
-Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,CS
-BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,CS
-BattleMaster BLR-2C,85,"1,563",45,Brawler,RGv1 RG03,Advanced,2925,Assault,CS
-Crockett CRK-5003-1,85,"1,923",46,Sniper,TR:SW RSFP:Wave 2,Standard,2735,Assault,CS
-Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,CS
-Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,CS
-Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,CS
-Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,CS
-Cyclops CP-10-HQ,90,"1,113",32,Juggernaut,TR:SW RS:3039u,Experimental,2753,Assault,CS
-Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,CS
-Emperor EMP-6A,90,"1,969",42,Juggernaut,TR:SW RS:SW,Standard,2612,Assault,CS
-Highlander HGN-732,90,"2,227",47,Sniper,TR:SW RSFP:Wave 2,Standard,2592,Assault,CS
-Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,CS
-Nightstar NSR-9J,95,"2,399",51,Juggernaut,TR:SW RSFP:Wave 2,Standard,2767,Assault,CS
-Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,CS
-Atlas AS7-D-DC,100,"1,858",52,Juggernaut,MWC RS:3039u,Advanced,2776,Assault,CS
-King Crab KGC-000,100,"1,906",46,Juggernaut,TR:3050U RSFP:Wave 2,Standard,2743,Assault,CS
-Pillager PLG-3Z,100,"2,697",51,Juggernaut,TR:SW RS:SW,Standard,2594,Assault,CS
-Thunder Hawk TDK-7X,100,"2,577",51,Sniper,TR:SW RS:SW,Standard,2771,Assault,CS
-Hornet HNT-151,20,488,14,Striker,TR:3039 RS:3039u,Introductory,2760,Light,Merc
-Hornet HNT-152,20,475,17,Striker,TR:3039 RS:3039u,Introductory,2997,Light,Merc
-Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,Merc
-Locust LCT-3V,20,490,19,Scout,TR:SW RS:SW,Introductory,3004,Light,Merc
-Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,Merc
-Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,Merc
-Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,Merc
-Commando COM-2D,25,541,17,Striker,TR:SW RSFP:Wave 1,Introductory,2486,Light,Merc
-Commando COM-7X,25,623,21,Striker,Shrap16 ShrapRS,Introductory,3018,Light,Merc
-"Commando COM-7Y2 ""Blazing Inferno""",25,728,21,Striker,Shrap16 ShrapRS,Introductory,3025,Light,Merc
-Mongoose MON-67,25,741,27,Striker,TR:SW RSFP:Wave 2,Introductory,2830,Light,Merc
-Falcon FLC-4N,30,610,19,Scout,TR:SW RS:SW,Introductory,2582,Light,Merc
-Javelin JVN-10A,30,653,17,Striker,TR:SW RS:SW,Introductory,2752,Light,Merc
-"Javelin JVN-10F ""Fire Javelin""",30,835,22,Striker,TR:SW RS:SW,Introductory,2819,Light,Merc
-Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,Merc
-Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,Merc
-UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,Merc
-Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787,Light,Merc
-Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967,Light,Merc
-Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,Merc
-Jenner JR7-D,35,875,26,Striker,TR:SW RSFP:Wave 2,Introductory,2785,Light,Merc
-Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,Merc
-Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,Merc
-Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,Merc
-Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,Merc
-Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,Merc
-Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,Merc
-Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,Merc
-Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,Merc
-Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,Merc
-Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,Merc
-Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,Merc
-Vindicator VND-1R,45,"1,024",27,Brawler,TR:SW RS:SW,Introductory,2826,Medium,Merc
-Wyvern WVE-6N,45,"1,005",27,Skirmisher,TR:3039 RS:3039u,Introductory,2821,Medium,Merc
-Centurion CN9-A,50,945,28,Brawler,TR:SW RSFP:Wave 2,Introductory,2801,Medium,Merc
-Centurion CN9-AH,50,945,29,Juggernaut,TR:SW RS:SW,Introductory,2874,Medium,Merc
-Centurion CN9-AL,50,"1,057",28,Brawler,TR:SW RS:SW,Introductory,2915,Medium,Merc
-Crab CRB-20,50,"1,143",29,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2810,Medium,Merc
-Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777,Medium,Merc
-Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,Merc
-Hunchback HBK-4H,50,"1,067",28,Juggernaut,TR:SW RS:SW,Introductory,2819,Medium,Merc
-Hunchback HBK-4J,50,"1,143",31,Missile Boat,TR:SW RS:SW,Introductory,2856,Medium,Merc
-Hunchback HBK-4N,50,"1,087",31,Brawler,TR:SW RS:SW,Introductory,2920,Medium,Merc
-Hunchback HBK-4P,50,"1,138",31,Juggernaut,TR:SW RS:SW,Introductory,2937,Medium,Merc
-Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,Merc
-Trebuchet TBT-5N,50,"1,191",29,Missile Boat,TR:SW RSFP:Wave 2,Introductory,2799,Medium,Merc
-Trebuchet TBT-5S,50,984,33,Skirmisher,TR:SW RS:SW,Introductory,2864,Medium,Merc
-Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,Merc
-Gladiator GLD-3R,55,"1,282",33,Missile Boat,TR:SW RS:SW,Introductory,2490,Medium,Merc
-Gladiator GLD-4R,55,"1,291",31,Skirmisher,TR:SW RS:SW,Introductory,2495,Medium,Merc
-Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,Merc
-Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,Merc
-Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,Merc
-Shadow Hawk SHD-3H,55,"1,043",30,Skirmisher,Shrap14 ShrapRS,Introductory,2752,Medium,Merc
-Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,Merc
-Champion CHP-2N,60,"1,116",30,Skirmisher,TR:3039 RS:3039u,Introductory,2810,Heavy,Merc
-Dragon DRG-1N,60,"1,125",32,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2754,Heavy,Merc
-Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,Merc
-Ostroc OSR-2L,60,"1,233",31,Skirmisher,TR:3039 RS:3039u,Introductory,2884,Heavy,Merc
-Ostroc OSR-3C,60,"1,288",30,Skirmisher,TR:3039 RS:3039u,Introductory,2876,Heavy,Merc
-Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,Merc
-Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,Merc
-Quickdraw QKD-4H,60,"1,242",30,Skirmisher,TR:SW RS:SW,Introductory,2847,Heavy,Merc
-Quickdraw QKD-5A,60,"1,196",31,Skirmisher,TR:SW RS:SW,Introductory,3002,Heavy,Merc
-Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,Merc
-Bombardier BMB-10D,65,"1,340",35,Missile Boat,TR:SW RS:SW,Introductory,2866,Heavy,Merc
-Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,Merc
-Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,Merc
-Thunderbolt TDR-5D,65,"1,231",35,Brawler,TR:SW RS:SW,Introductory,2821,Heavy,Merc
-Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,Merc
-Thunderbolt TDR-5SE,65,"1,414",35,Skirmisher,TR:SW RSFP:Wave 1,Introductory,3000,Heavy,Merc
-Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,Merc
-Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,Merc
-Guillotine GLT-4L,70,"1,400",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2825,Heavy,Merc
-Guillotine GLT-4P,70,"1,376",34,Skirmisher,TR:SW RS:SW,Introductory,2833,Heavy,Merc
-Viper VP-1,70,"1,609",34,Brawler,RG32 RG32,Standard,2832,Heavy,Merc
-Viper VP-5,70,"1,539",36,Brawler,RG32 RG32,Introductory,2958,Heavy,Merc
-Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,Merc
-Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,Merc
-Marauder (Bounty Hunter-3015),75,"1,919",45,Juggernaut,BD:BH RG06,Standard,3015,Heavy,Merc
-Marauder MAD-3R,75,"1,363",35,Sniper,TR:3039 RSFP:Wave 1,Introductory,2819,Heavy,Merc
-Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,Merc
-Orion ON1-V,75,"1,298",35,Brawler,TR:SW RS:SW,Introductory,2799,Heavy,Merc
-Orion ON1-VA,75,"1,328",39,Juggernaut,TR:SW RS:SW,Introductory,2901,Heavy,Merc
-Stalker STK-4P,75,"1,461",39,Juggernaut,TR:SW RS:3039u,Introductory,2998,Heavy,Merc
-Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,Merc
-Awesome AWS-8T,80,"1,593",39,Missile Boat,TR:SW RS:SW,Introductory,2815,Assault,Merc
-Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,Merc
-Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,Merc
-Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,Merc
-Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898,Assault,Merc
-BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,Merc
-Longbow LGB-0W,85,"1,337",36,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2529,Assault,Merc
-Longbow LGB-0W2,85,"1,410",38,Missile Boat,RGv1 RG20,Introductory,2531,Assault,Merc
-Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,Merc
-Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,Merc
-Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,Merc
-Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,Merc
-Stalker STK-4N,85,"1,558",41,Juggernaut,TR:SW RS:SW,Introductory,2876,Assault,Merc
-Cyclops CP-10-Q,90,"1,584",44,Missile Boat,TR:SW RS:SW,Introductory,2801,Assault,Merc
-Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,Merc
-Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,Merc
-Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954,Assault,Merc
-Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,Merc
-Atlas AS7-RS,100,"1,849",48,Juggernaut,TR:SW RS:SW,Introductory,2892,Assault,Merc
+RecordID,Name,Tons,BV,PV,Role,TRO/RS,Rules,Intro,Weight Class,Faction
+1,Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,IS
+2,Locust LCT-3V,20,490,19,Scout,TR:SW RS:SW,Introductory,3004,Light,IS
+3,Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,IS
+4,Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,IS
+5,Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,IS
+6,Mongoose MON-67,25,741,27,Striker,TR:SW RSFP:Wave 2,Introductory,2830,Light,IS
+7,Javelin JVN-10A,30,653,17,Striker,TR:SW RS:SW,Introductory,2752,Light,IS
+8,"Javelin JVN-10F ""Fire Javelin""",30,835,22,Striker,TR:SW RS:SW,Introductory,2819,Light,IS
+9,Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,IS
+10,Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,IS
+11,UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,IS
+12,Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,IS
+13,Jenner JR7-D,35,875,26,Striker,TR:SW RSFP:Wave 2,Introductory,2785,Light,IS
+14,Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,IS
+15,Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,IS
+16,Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,IS
+17,Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,IS
+18,Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,IS
+19,Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,IS
+20,Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,IS
+21,Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,IS
+22,Wyvern WVE-6N,45,"1,005",27,Skirmisher,TR:3039 RS:3039u,Introductory,2821,Medium,IS
+23,Centurion CN9-A,50,945,28,Brawler,TR:SW RSFP:Wave 2,Introductory,2801,Medium,IS
+24,Centurion CN9-AH,50,945,29,Juggernaut,TR:SW RS:SW,Introductory,2874,Medium,IS
+25,Centurion CN9-AL,50,"1,057",28,Brawler,TR:SW RS:SW,Introductory,2915,Medium,IS
+26,Chameleon TRC-4B,50,999,21,Scout,RGv1 RG25,Introductory,2510,Medium,IS
+27,Crab CRB-20,50,"1,143",29,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2810,Medium,IS
+28,Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,IS
+29,Hunchback HBK-4H,50,"1,067",28,Juggernaut,TR:SW RS:SW,Introductory,2819,Medium,IS
+30,Hunchback HBK-4J,50,"1,143",31,Missile Boat,TR:SW RS:SW,Introductory,2856,Medium,IS
+31,Hunchback HBK-4N,50,"1,087",31,Brawler,TR:SW RS:SW,Introductory,2920,Medium,IS
+32,Hunchback HBK-4P,50,"1,138",31,Juggernaut,TR:SW RS:SW,Introductory,2937,Medium,IS
+33,Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,IS
+34,Trebuchet TBT-5N,50,"1,191",29,Missile Boat,TR:SW RSFP:Wave 2,Introductory,2799,Medium,IS
+35,Trebuchet TBT-5S,50,984,33,Skirmisher,TR:SW RS:SW,Introductory,2864,Medium,IS
+36,Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,IS
+37,Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,IS
+38,Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,IS
+39,Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,IS
+40,Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,IS
+41,Champion CHP-2N,60,"1,116",30,Skirmisher,TR:3039 RS:3039u,Introductory,2810,Heavy,IS
+42,Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,IS
+43,Ostroc OSR-2L,60,"1,233",31,Skirmisher,TR:3039 RS:3039u,Introductory,2884,Heavy,IS
+44,Ostroc OSR-3C,60,"1,288",30,Skirmisher,TR:3039 RS:3039u,Introductory,2876,Heavy,IS
+45,Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,IS
+46,Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,IS
+47,Quickdraw QKD-4H,60,"1,242",30,Skirmisher,TR:SW RS:SW,Introductory,2847,Heavy,IS
+48,Quickdraw QKD-5A,60,"1,196",31,Skirmisher,TR:SW RS:SW,Introductory,3002,Heavy,IS
+49,Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,IS
+50,Bombardier BMB-10D,65,"1,340",35,Missile Boat,TR:SW RS:SW,Introductory,2866,Heavy,IS
+51,Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,IS
+52,Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,IS
+53,Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,IS
+54,Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,IS
+55,Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,IS
+56,Guillotine GLT-4L,70,"1,400",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2825,Heavy,IS
+57,Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,IS
+58,Marauder MAD-3R,75,"1,363",35,Sniper,TR:3039 RSFP:Wave 1,Introductory,2819,Heavy,IS
+59,Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,IS
+60,Orion ON1-V,75,"1,298",35,Brawler,TR:SW RS:SW,Introductory,2799,Heavy,IS
+61,Orion ON1-VA,75,"1,328",39,Juggernaut,TR:SW RS:SW,Introductory,2901,Heavy,IS
+62,Stalker STK-4P,75,"1,461",39,Juggernaut,TR:SW RS:3039u,Introductory,2998,Heavy,IS
+63,Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,IS
+64,Awesome AWS-8R,80,"1,470",38,Missile Boat,TR:SW RS:SW,Introductory,2683,Assault,IS
+65,Awesome AWS-8T,80,"1,593",39,Missile Boat,TR:SW RS:SW,Introductory,2815,Assault,IS
+66,Awesome AWS-8V,80,"1,510",39,Sniper,TR:SW RS:SW,Introductory,2980,Assault,IS
+67,Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,IS
+68,BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,IS
+69,BattleMaster BLR-1G-DC,85,"1,494",41,Brawler,MWC RS:3039u,Advanced,2633,Assault,IS
+70,Crockett CRK-5003-0,85,"1,704",41,Juggernaut,TR:3025r None,Introductory,2881,Assault,IS
+71,Longbow LGB-0W,85,"1,337",36,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2529,Assault,IS
+72,Longbow LGB-0W2,85,"1,410",38,Missile Boat,RGv1 RG20,Introductory,2531,Assault,IS
+73,Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,IS
+74,Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,IS
+75,Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,IS
+76,Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,IS
+77,Stalker STK-4N,85,"1,558",41,Juggernaut,TR:SW RS:SW,Introductory,2876,Assault,IS
+78,Cyclops CP-10-HQ,90,"1,113",32,Juggernaut,TR:SW RS:3039u,Experimental,2753,Assault,IS
+79,Cyclops CP-10-Q,90,"1,584",44,Missile Boat,TR:SW RS:SW,Introductory,2801,Assault,IS
+80,Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,IS
+81,Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,IS
+82,Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,IS
+83,Atlas AS7-D-DC,100,"1,858",52,Juggernaut,MWC RS:3039u,Advanced,2776,Assault,IS
+84,Atlas AS7-RS,100,"1,849",48,Juggernaut,TR:SW RS:SW,Introductory,2892,Assault,IS
+85,King Crab KGC-0000,100,"1,810",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2815,Assault,IS
+86,Locust LCT-1E,20,553,19,Scout,TR:SW RSFP:Wave 1,Introductory,2811,Light,CC
+87,Wasp WSP-1L,20,335,14,Scout,TR:3039 RS:3039u,Introductory,2799,Light,CC
+88,Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856,Light,CC
+89,Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856,Light,CC
+90,UrbanMech UM-R60L,30,470,11,Ambusher,TR:SW RS:SW,Introductory,2925,Light,CC
+91,Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,CC
+92,Cicada CDA-2B,40,626,22,Scout,TR:SW RS:SW,Introductory,2840,Medium,CC
+93,Cicada CDA-3C,40,771,22,Scout,TR:SW RS:SW,Introductory,2840,Medium,CC
+94,Clint CLNT-1-2R,40,707,19,Striker,TR:SW RS:SW,Introductory,2607,Medium,CC
+95,Clint CLNT-2-4T,40,619,16,Sniper,TR:SW RS:SW,Introductory,,Medium,CC
+96,Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,CC
+97,"Vindicator VND-1AA ""Avenging Angel""",45,966,23,Skirmisher,TR:SW RS:SW,Introductory,2863,Medium,CC
+98,Vindicator VND-1R,45,"1,024",27,Brawler,TR:SW RS:SW,Introductory,2826,Medium,CC
+99,Vindicator VND-1X,45,"1,008",27,Brawler,TR:SW RS:SW,Introductory,2826,Medium,CC
+100,Catapult CPLT-A1,65,"1,285",31,Missile Boat,TR:SW RS:SW,Introductory,2563,Heavy,CC
+101,Catapult CPLT-C4,65,"1,358",31,Missile Boat,TR:SW RS:SW,Introductory,2565,Heavy,CC
+102,Crusader CRD-3L,65,"1,297",34,Missile Boat,TR:3039 RS:3039u,Introductory,2753,Heavy,CC
+103,JagerMech JM6-S,65,901,26,Sniper,TR:SW RS:SW,Introductory,2774,Heavy,CC
+104,Warhammer WHM-6L,70,"1,311",31,Brawler,TR:3039 RS:3039u,Introductory,2825,Heavy,CC
+105,Marauder MAD-3L,75,"1,369",35,Brawler,TR:3039 RS:3039u,Introductory,2905,Heavy,CC
+106,Striker STC-2C,80,"1,488",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2571,Assault,CC
+107,Victor VTR-9A,80,"1,236",31,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CC
+108,Victor VTR-9A1,80,"1,302",33,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CC
+109,Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866,Assault,CC
+110,Highlander HGN-733C,90,"1,857",44,Juggernaut,TR:SW RS:SW,Introductory,2866,Assault,CC
+111,Highlander HGN-733P,90,"1,865",46,Sniper,TR:SW RS:SW,Introductory,2866,Assault,CC
+112,Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954,Assault,CC
+113,Wasp WSP-1K,20,376,14,Scout,TR:3039 RS:3039u,Introductory,2818,Light,DC
+114,Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856,Light,DC
+115,Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856,Light,DC
+116,Spider SDR-5K,30,503,21,Scout,TR:SW RS:SW,Introductory,2850,Light,DC
+117,Jenner JR7-F,35,"1,011",32,Striker,TR:SW RS:SW,Introductory,2784,Light,DC
+118,Panther PNT-9ALAG,35,804,22,Striker,TR:SW TP:39V,Introductory,2950,Light,DC
+119,Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,DC
+120,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,DC
+121,Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,DC
+122,Whitworth WTH-1S,40,917,25,Skirmisher,TR:SW RS:SW,Introductory,2610,Medium,DC
+123,Phoenix Hawk PXH-1K,45,"1,073",29,Skirmisher,TR:3039 RS:3039u,Introductory,2603,Medium,DC
+124,Shadow Hawk SHD-2K,55,"1,147",30,Sniper,TR:SW RS:SW,Introductory,2803,Medium,DC
+125,Wolverine WVR-6K,55,"1,248",35,Skirmisher,TR:SW RS:SW,Introductory,2598,Medium,DC
+126,Dragon DRG-1C,60,"1,215",35,Skirmisher,TR:SW RS:SW,Introductory,2752,Heavy,DC
+127,Dragon DRG-1N,60,"1,125",32,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2754,Heavy,DC
+128,Lancelot LNC25-02,60,"1,236",30,Brawler,TR:SW RSFP:Wave 2,Introductory,2864,Heavy,DC
+129,Ostroc OSR-9C,60,"1,230",29,Juggernaut,RGv1 RG21,Introductory,2905,Heavy,DC
+130,Catapult CPLT-K2,65,"1,319",32,Sniper,TR:SW RSFP:Wave 1,Introductory,2603,Heavy,DC
+131,Crusader CRD-3K,65,"1,290",34,Missile Boat,TR:3039 RS:3039u,Introductory,2765,Heavy,DC
+132,Archer ARC-2K,70,"1,356",34,Missile Boat,TR:3039 RS:3039u,Introductory,2856,Heavy,DC
+133,Warhammer WHM-6K,70,"1,305",32,Brawler,TR:3039 RS:3039u,Introductory,2830,Heavy,DC
+134,Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,DC
+135,Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,DC
+136,Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835,Assault,DC
+137,Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866,Assault,DC
+138,Hornet HNT-151,20,488,14,Striker,TR:3039 RS:3039u,Introductory,2760,Light,FS
+139,Hornet HNT-152,20,475,17,Striker,TR:3039 RS:3039u,Introductory,2997,Light,FS
+140,Locust LCT-1M,20,424,21,Missile Boat,TR:SW RS:SW,Introductory,2571,Light,FS
+141,Wasp WSP-1D,20,403,15,Scout,TR:3039 RS:3039u,Introductory,2823,Light,FS
+142,Spider SDR-5D,30,524,21,Scout,TR:SW RS:SW,Introductory,2853,Light,FS
+143,SuburbanMech UM-R90,30,773,19,Ambusher,Shrap04 ShrapRS,Introductory,3018,Light,FS
+144,Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787,Light,FS
+145,Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967,Light,FS
+146,Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,FS
+147,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,FS
+148,Clint CLNT-1-2R,40,707,19,Striker,TR:SW RS:SW,Introductory,2607,Medium,FS
+149,Clint CLNT-2-4T,40,619,16,Sniper,TR:SW RS:SW,Introductory,,Medium,FS
+150,Phoenix Hawk PXH-1D,45,"1,083",26,Skirmisher,TR:3039 RS:3039u,Introductory,2586,Medium,FS
+151,Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777,Medium,FS
+152,Kintaro KTO-18,55,"1,187",36,Skirmisher,TR:SW RS:SW,Introductory,2792,Medium,FS
+153,Shadow Hawk SHD-2D,55,899,26,Striker,TR:SW RS:SW,Introductory,2796,Medium,FS
+154,Wolverine WVR-6D,55,"1,115",29,Skirmisher,TR:SW RS:SW,Introductory,2612,Medium,FS
+155,Ostroc OSR-9C,60,"1,230",29,Juggernaut,RGv1 RG21,Introductory,2905,Heavy,FS
+156,Ostsol OTL-4F,60,"1,264",31,Skirmisher,TR:3039 RS:3039u,Introductory,2871,Heavy,FS
+157,Crusader CRD-3D,65,"1,338",34,Missile Boat,TR:3039 RS:3039u,Introductory,2756,Heavy,FS
+158,JagerMech JM6-A,65,"1,122",27,Missile Boat,TR:SW RS:SW,Introductory,2778,Heavy,FS
+159,JagerMech JM6-S,65,901,26,Sniper,TR:SW RS:SW,Introductory,2774,Heavy,FS
+160,Thunderbolt TDR-5D,65,"1,231",35,Brawler,TR:SW RS:SW,Introductory,2821,Heavy,FS
+161,Warhammer WHM-6D,70,"1,471",36,Brawler,TR:3039 RS:3039u,Introductory,2835,Heavy,FS
+162,Warhammer WHM-6K,70,"1,305",32,Brawler,TR:3039 RS:3039u,Introductory,2830,Heavy,FS
+163,Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,FS
+164,Marauder MAD-3D,75,"1,470",35,Brawler,TR:3039 RS:3039u,Introductory,2834,Heavy,FS
+165,Victor VTR-9A,80,"1,236",31,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,FS
+166,Victor VTR-9A1,80,"1,302",33,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,FS
+167,Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898,Assault,FS
+168,BattleMaster BLR-1D,85,"1,522",40,Brawler,TR:SW RS:SW,Introductory,2867,Assault,FS
+169,Flea FLE-14,15,270,14,Scout,XTR:SW XTR:SW,Experimental,2519,Light,FWL
+170,Flea FLE-15,20,430,14,Scout,TR:SW RS:SW,Introductory,2523,Light,FWL
+171,Flea FLE-4,20,432,12,Scout,TR:SW RS:SW,Introductory,2501,Light,FWL
+172,Hermes HER-1A,30,601,21,Scout,TR:SW RS:SW,Introductory,2856,Light,FWL
+173,Hermes HER-1B,30,687,25,Striker,TR:SW RS:SW,Introductory,2856,Light,FWL
+174,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,FWL
+175,"Hermes II HER-2M ""Mercury""",40,910,33,Striker,TR:SW RS:SW,Introductory,2802,Medium,FWL
+176,Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,FWL
+177,Trebuchet TBT-5J,50,"1,191",30,Skirmisher,TR:SW RS:SW,Introductory,2850,Medium,FWL
+178,Wolverine WVR-6M,55,"1,291",32,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2816,Medium,FWL
+179,Ostroc OSR-2M,60,"1,239",29,Skirmisher,TR:3039 RS:3039u,Introductory,2793,Heavy,FWL
+180,Exterminator EXT-4A,65,"1,372",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,3007,Heavy,FWL
+181,Guillotine GLT-4P,70,"1,376",34,Skirmisher,TR:SW RS:SW,Introductory,2833,Heavy,FWL
+182,Viper VP-1,70,"1,609",34,Brawler,RG32 RG32,Standard,2832,Heavy,FWL
+183,Viper VP-5,70,"1,539",36,Brawler,RG32 RG32,Introductory,2958,Heavy,FWL
+184,Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,FWL
+185,Black Knight BL-7-KNT-L,75,"1,409",33,Brawler,TR:SW RS:SW,Introductory,2809,Heavy,FWL
+186,Marauder MAD-3M,75,"1,335",34,Brawler,TR:3039 RS:3039u,Introductory,2873,Heavy,FWL
+187,Orion ON1-V-DC,75,"1,310",35,Brawler,MWC RS:3039u,Advanced,2913,Heavy,FWL
+188,Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,FWL
+189,Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,FWL
+190,Thug THG-10E,80,"1,501",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2835,Assault,FWL
+191,Banshee BNC-3M,95,"1,595",39,Brawler,TR:SW RS:SW,Introductory,2579,Assault,FWL
+192,Banshee BNC-3Q,95,"1,394",37,Juggernaut,TR:SW RS:3039u,Introductory,2915,Assault,FWL
+193,Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954,Assault,FWL
+194,Locust LCT-1S,20,440,18,Scout,TR:SW RS:SW,Introductory,2567,Light,LC
+195,Commando COM-1B,25,616,17,Striker,TR:3050U RS:3050Uu-I,Introductory,3015,Light,LC
+196,Commando COM-1D,25,558,17,Striker,TR:SW RS:SW,Introductory,2480,Light,LC
+197,Commando COM-2D,25,541,17,Striker,TR:SW RSFP:Wave 1,Introductory,2486,Light,LC
+198,Commando COM-7X,25,623,21,Striker,Shrap16 ShrapRS,Introductory,3018,Light,LC
+199,Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787,Light,LC
+200,Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967,Light,LC
+201,"Firestarter FS9-M ""Mirage""",35,798,21,Scout,TR:SW RS:SW,Introductory,2893,Light,LC
+202,Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,LC
+203,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,LC
+204,Sentinel STN-3K,40,652,19,Scout,TR:SW RSFP:Wave 2,Introductory,2830,Medium,LC
+205,Sentinel STN-3KA,40,847,21,Scout,TR:SW RS:SW,Introductory,2830,Medium,LC
+206,Sentinel STN-3KB,40,823,23,Striker,TR:SW RS:SW,Introductory,2830,Medium,LC
+207,Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777,Medium,LC
+208,Griffin GRF-1RG,55,"1,167",33,Skirmisher,RGv1 RG01,Introductory,2597,Medium,LC
+209,Griffin GRF-1S,55,"1,253",31,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2857,Medium,LC
+210,Thunderbolt TDR-5SS,65,"1,337",35,Brawler,TR:SW RS:SW,Introductory,2930,Heavy,LC
+211,Archer ARC-2S,70,"1,393",36,Missile Boat,TR:3039 RS:3039u,Introductory,2915,Heavy,LC
+212,Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,LC
+213,Flashman FLS-7K,75,"1,480",36,Brawler,TR:SW RSFP:Wave 2,Introductory,2796,Heavy,LC
+214,Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,LC
+215,Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,LC
+216,Striker STC-2C,80,"1,488",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2571,Assault,LC
+217,Striker STC-2S,80,"1,466",36,Brawler,TR:3058U RS:3058Uu-C,Introductory,2845,Assault,LC
+218,Victor VTR-9S,80,"1,360",36,Skirmisher,TR:SW RS:SW,Introductory,2998,Assault,LC
+219,Zeus ZEU-6A,80,"1,405",35,Brawler,TR:SW RS:SW,Introductory,2940,Assault,LC
+220,Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898,Assault,LC
+221,Zeus ZEU-6Y,80,"1,323",34,Sniper,XTR:SW XTR:SW,Experimental,2922,Assault,LC
+222,Highlander HGN-733,90,"1,801",44,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2866,Assault,LC
+223,Highlander HGN-733C,90,"1,857",44,Juggernaut,TR:SW RS:SW,Introductory,2866,Assault,LC
+224,Highlander HGN-733P,90,"1,865",46,Sniper,TR:SW RS:SW,Introductory,2866,Assault,LC
+225,Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,CS
+226,Mercury MCY-99,20,586,22,Scout,TR:SW RSFP:Wave 2,Standard,2742,Light,CS
+227,Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,CS
+228,Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,CS
+229,Thorn THE-N,20,546,18,Striker,TR:SW RS:SW,Standard,2549,Light,CS
+230,Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,CS
+231,Mongoose MON-66,25,758,30,Scout,TR:SW RSFP:Wave 2,Standard,2660,Light,CS
+232,Falcon FLC-4N,30,610,19,Scout,TR:SW RS:SW,Introductory,2582,Light,CS
+233,Hermes HER-1S,30,716,25,Scout,TR:SW RS:SW,Standard,2632,Light,CS
+234,Hussar HSR-200-D,30,636,18,Scout,TR:SW RS:SW,Standard,2620,Light,CS
+235,Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,CS
+236,Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,CS
+237,UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,CS
+238,Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,CS
+239,Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,CS
+240,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,CS
+241,Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,CS
+242,Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,CS
+243,Sentinel STN-3L,40,717,23,Striker,TR:SW RSFP:Wave 2,Standard,2652,Medium,CS
+244,Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,CS
+245,Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,CS
+246,Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,CS
+247,Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,CS
+248,Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,CS
+249,Chameleon TRC-4B,50,999,21,Scout,RGv1 RG25,Introductory,2510,Medium,CS
+250,Crab CRB-27,50,"1,198",29,Skirmisher,TR:SW RSFP:Wave 2,Standard,2719,Medium,CS
+251,Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,CS
+252,Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,CS
+253,Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,CS
+254,Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,CS
+255,Griffin GRF-2N,55,"1,606",38,Skirmisher,RGv1 RG01,Standard,2751,Medium,CS
+256,Kintaro KTO-19,55,"1,160",36,Skirmisher,TR:SW RS:SW,Standard,2587,Medium,CS
+257,Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,CS
+258,Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,CS
+259,Shadow Hawk SHD-2Hb,55,"1,354",34,Skirmisher,RGv1 RG12,Standard,2752,Medium,CS
+260,Shadow Hawk SHD-3H2,55,"1,112",29,Brawler,Shrap14 ShrapRS,Advanced,2775,Medium,CS
+261,Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,CS
+262,Champion CHP-1N,60,"1,233",34,Skirmisher,TR:3050U RS:3050Uu-C,Standard,2602,Heavy,CS
+263,Champion CHP-1N2,60,"1,233",35,Skirmisher,TR:3039 RS:3039u,Standard,2667,Heavy,CS
+264,Lancelot LNC25-01,60,"1,422",33,Skirmisher,TR:SW RSFP:Wave 2,Standard,2581,Heavy,CS
+265,Lancelot LNC25-03,60,"1,360",36,Skirmisher,TR:SW RS:SW,Standard,2876,Heavy,CS
+266,Lancelot LNC25-05,60,"1,365",32,Skirmisher,TR:SW RS:SW,Standard,2594,Heavy,CS
+267,Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,CS
+268,Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,CS
+269,Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,CS
+270,Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,CS
+271,Bombardier BMB-12D,65,"1,480",39,Missile Boat,TR:SW RS:SW,Standard,2735,Heavy,CS
+272,Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,CS
+273,Catapult CPLT-C1b,65,"1,570",37,Missile Boat,TR:SW RS:SW,Standard,2688,Heavy,CS
+274,Cestus CTS-6Y,65,"1,701",37,Brawler,TR:3058U RS:3058Uu-C,Standard,2766,Heavy,CS
+275,Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,CS
+276,Exterminator EXT-4D,65,"1,385",37,Skirmisher,TR:SW RSFP:Wave 2,Standard,2630,Heavy,CS
+277,JagerMech JM6-S,65,901,26,Sniper,TR:SW RS:SW,Introductory,2774,Heavy,CS
+278,Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,CS
+279,Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,CS
+280,Excalibur EXC-B2,70,"1,533",37,Skirmisher,TR:SW RS:SW,Standard,2620,Heavy,CS
+281,Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,CS
+282,Guillotine GLT-3N,70,"1,418",35,Skirmisher,TR:SW RSFP:Wave 2,Standard,2499,Heavy,CS
+283,Shootist ST-8A,70,"1,507",41,Brawler,TR:SW RS:SW,Standard,2621,Heavy,CS
+284,Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,CS
+285,Black Knight BL-6-KNT,75,"1,551",39,Brawler,TR:SW RSFP:Wave 2,Standard,2578,Heavy,CS
+286,Black Knight BL-6b-KNT,75,"1,627",42,Brawler,TR:3050U RS:3050Uu-C,Standard,2751,Heavy,CS
+287,Flashman FLS-8K,75,"1,779",41,Skirmisher,TR:SW RSFP:Wave 2,Standard,2701,Heavy,CS
+288,Marauder MAD-1R,75,"1,420",37,Sniper,TR:3075 RS:3075u-AW,Standard,2612,Heavy,CS
+289,Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,CS
+290,Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,CS
+291,Awesome AWS-8R,80,"1,470",38,Missile Boat,TR:SW RS:SW,Introductory,2683,Assault,CS
+292,Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,CS
+293,Spartan SPT-N2,80,"1,605",43,Skirmisher,TR:3058U RSFP:SI,Standard,2765,Assault,CS
+294,Thug THG-11E,80,"1,640",41,Brawler,TR:SW RSFP:Wave 2,Standard,2572,Assault,CS
+295,Victor VTR-9A,80,"1,236",31,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CS
+296,Victor VTR-9A1,80,"1,302",33,Skirmisher,TR:SW RS:SW,Introductory,2508,Assault,CS
+297,Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,CS
+298,BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,CS
+299,BattleMaster BLR-2C,85,"1,563",45,Brawler,RGv1 RG03,Advanced,2925,Assault,CS
+300,Crockett CRK-5003-1,85,"1,923",46,Sniper,TR:SW RSFP:Wave 2,Standard,2735,Assault,CS
+301,Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,CS
+302,Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,CS
+303,Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,CS
+304,Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,CS
+305,Cyclops CP-10-HQ,90,"1,113",32,Juggernaut,TR:SW RS:3039u,Experimental,2753,Assault,CS
+306,Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,CS
+307,Emperor EMP-6A,90,"1,969",42,Juggernaut,TR:SW RS:SW,Standard,2612,Assault,CS
+308,Highlander HGN-732,90,"2,227",47,Sniper,TR:SW RSFP:Wave 2,Standard,2592,Assault,CS
+309,Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,CS
+310,Nightstar NSR-9J,95,"2,399",51,Juggernaut,TR:SW RSFP:Wave 2,Standard,2767,Assault,CS
+311,Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,CS
+312,Atlas AS7-D-DC,100,"1,858",52,Juggernaut,MWC RS:3039u,Advanced,2776,Assault,CS
+313,King Crab KGC-000,100,"1,906",46,Juggernaut,TR:3050U RSFP:Wave 2,Standard,2743,Assault,CS
+314,Pillager PLG-3Z,100,"2,697",51,Juggernaut,TR:SW RS:SW,Standard,2594,Assault,CS
+315,Thunder Hawk TDK-7X,100,"2,577",51,Sniper,TR:SW RS:SW,Standard,2771,Assault,CS
+316,Hornet HNT-151,20,488,14,Striker,TR:3039 RS:3039u,Introductory,2760,Light,Merc
+317,Hornet HNT-152,20,475,17,Striker,TR:3039 RS:3039u,Introductory,2997,Light,Merc
+318,Locust LCT-1V,20,432,18,Scout,TR:SW RSFP:Wave 1,Introductory,2499,Light,Merc
+319,Locust LCT-3V,20,490,19,Scout,TR:SW RS:SW,Introductory,3004,Light,Merc
+320,Stinger STG-3G,20,497,14,Scout,TR:3039 RS:3039u,Introductory,2581,Light,Merc
+321,Stinger STG-3R,20,359,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2479,Light,Merc
+322,Wasp WSP-1A,20,384,14,Scout,TR:3039 RSFP:Wave 1,Introductory,2471,Light,Merc
+323,Commando COM-2D,25,541,17,Striker,TR:SW RSFP:Wave 1,Introductory,2486,Light,Merc
+324,Commando COM-7X,25,623,21,Striker,Shrap16 ShrapRS,Introductory,3018,Light,Merc
+325,"Commando COM-7Y2 ""Blazing Inferno""",25,728,21,Striker,Shrap16 ShrapRS,Introductory,3025,Light,Merc
+326,Mongoose MON-67,25,741,27,Striker,TR:SW RSFP:Wave 2,Introductory,2830,Light,Merc
+327,Falcon FLC-4N,30,610,19,Scout,TR:SW RS:SW,Introductory,2582,Light,Merc
+328,Javelin JVN-10A,30,653,17,Striker,TR:SW RS:SW,Introductory,2752,Light,Merc
+329,"Javelin JVN-10F ""Fire Javelin""",30,835,22,Striker,TR:SW RS:SW,Introductory,2819,Light,Merc
+330,Javelin JVN-10N,30,594,19,Striker,TR:SW RS:SW,Introductory,2751,Light,Merc
+331,Spider SDR-5V,30,622,21,Scout,TR:SW RSFP:Wave 2,Introductory,2650,Light,Merc
+332,UrbanMech UM-R60,30,504,11,Ambusher,TR:SW RSFP:Wave 1,Introductory,2675,Light,Merc
+333,Valkyrie VLK-QA,30,723,22,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2787,Light,Merc
+334,Valkyrie VLK-QF,30,653,19,Missile Boat,TR:3039 RS:3039u,Introductory,2967,Light,Merc
+335,Firestarter FS9-H,35,694,20,Scout,TR:SW RS:SW,Introductory,2703,Light,Merc
+336,Jenner JR7-D,35,875,26,Striker,TR:SW RSFP:Wave 2,Introductory,2785,Light,Merc
+337,Ostscout OTT-7J,35,596,21,Scout,TR:SW RS:SW,Introductory,2600,Light,Merc
+338,Panther PNT-9R,35,769,19,Brawler,TR:SW RSFP:Wave 2,Introductory,2759,Light,Merc
+339,Assassin ASN-21,40,749,22,Scout,TR:SW RS:SW,Introductory,2676,Medium,Merc
+340,Cicada CDA-2A,40,659,22,Scout,TR:SW RS:SW,Introductory,2740,Medium,Merc
+341,Clint CLNT-2-3T,40,770,21,Striker,TR:SW RS:SW,Introductory,2608,Medium,Merc
+342,Hermes II HER-2S,40,784,22,Scout,TR:SW RS:SW,Introductory,2798,Medium,Merc
+343,Vulcan VL-2T,40,642,20,Scout,TR:SW RS:SW,Introductory,2777,Medium,Merc
+344,Vulcan VL-5T,40,942,24,Striker,TR:SW RS:SW,Introductory,2778,Medium,Merc
+345,Whitworth WTH-1,40,982,25,Missile Boat,TR:SW RS:SW,Introductory,2689,Medium,Merc
+346,Blackjack BJ-1,45,949,26,Sniper,TR:SW RSFP:Wave 2,Introductory,2757,Medium,Merc
+347,Phoenix Hawk PXH-1,45,"1,041",26,Skirmisher,TR:3039 RSFP:Wave 1,Introductory,2568,Medium,Merc
+348,Vindicator VND-1R,45,"1,024",27,Brawler,TR:SW RS:SW,Introductory,2826,Medium,Merc
+349,Wyvern WVE-6N,45,"1,005",27,Skirmisher,TR:3039 RS:3039u,Introductory,2821,Medium,Merc
+350,Centurion CN9-A,50,945,28,Brawler,TR:SW RSFP:Wave 2,Introductory,2801,Medium,Merc
+351,Centurion CN9-AH,50,945,29,Juggernaut,TR:SW RS:SW,Introductory,2874,Medium,Merc
+352,Centurion CN9-AL,50,"1,057",28,Brawler,TR:SW RS:SW,Introductory,2915,Medium,Merc
+353,Crab CRB-20,50,"1,143",29,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2810,Medium,Merc
+354,Enforcer ENF-4R,50,"1,032",25,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2777,Medium,Merc
+355,Hunchback HBK-4G,50,"1,041",28,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2572,Medium,Merc
+356,Hunchback HBK-4H,50,"1,067",28,Juggernaut,TR:SW RS:SW,Introductory,2819,Medium,Merc
+357,Hunchback HBK-4J,50,"1,143",31,Missile Boat,TR:SW RS:SW,Introductory,2856,Medium,Merc
+358,Hunchback HBK-4N,50,"1,087",31,Brawler,TR:SW RS:SW,Introductory,2920,Medium,Merc
+359,Hunchback HBK-4P,50,"1,138",31,Juggernaut,TR:SW RS:SW,Introductory,2937,Medium,Merc
+360,Phoenix Hawk LAM PHX-HK2,50,"1,555",29,Striker,TR:3085 RS:3085u-CE,Experimental,2701,Medium,Merc
+361,Trebuchet TBT-5N,50,"1,191",29,Missile Boat,TR:SW RSFP:Wave 2,Introductory,2799,Medium,Merc
+362,Trebuchet TBT-5S,50,984,33,Skirmisher,TR:SW RS:SW,Introductory,2864,Medium,Merc
+363,Dervish DV-6M,55,"1,146",30,Missile Boat,TR:SW RS:SW,Introductory,2570,Medium,Merc
+364,Gladiator GLD-3R,55,"1,282",33,Missile Boat,TR:SW RS:SW,Introductory,2490,Medium,Merc
+365,Gladiator GLD-4R,55,"1,291",31,Skirmisher,TR:SW RS:SW,Introductory,2495,Medium,Merc
+366,Griffin GRF-1N,55,"1,272",31,Sniper,TR:SW RSFP:Wave 1,Introductory,2492,Medium,Merc
+367,Scorpion SCP-1N,55,"1,019",27,Skirmisher,TR:3039 RS:3039u,Introductory,2570,Medium,Merc
+368,Shadow Hawk SHD-2H,55,"1,064",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2550,Medium,Merc
+369,Shadow Hawk SHD-3H,55,"1,043",30,Skirmisher,Shrap14 ShrapRS,Introductory,2752,Medium,Merc
+370,Wolverine WVR-6R,55,"1,101",30,Skirmisher,TR:SW RSFP:Wave 1,Introductory,2575,Medium,Merc
+371,Champion CHP-2N,60,"1,116",30,Skirmisher,TR:3039 RS:3039u,Introductory,2810,Heavy,Merc
+372,Dragon DRG-1N,60,"1,125",32,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2754,Heavy,Merc
+373,Ostroc OSR-2C,60,"1,228",34,Skirmisher,TR:3039 RS:3039u,Introductory,2511,Heavy,Merc
+374,Ostroc OSR-2L,60,"1,233",31,Skirmisher,TR:3039 RS:3039u,Introductory,2884,Heavy,Merc
+375,Ostroc OSR-3C,60,"1,288",30,Skirmisher,TR:3039 RS:3039u,Introductory,2876,Heavy,Merc
+376,Ostsol OTL-4D,60,"1,277",33,Skirmisher,TR:3039 RS:3039u,Introductory,2694,Heavy,Merc
+377,Quickdraw QKD-4G,60,"1,192",32,Skirmisher,TR:SW RS:SW,Introductory,2779,Heavy,Merc
+378,Quickdraw QKD-4H,60,"1,242",30,Skirmisher,TR:SW RS:SW,Introductory,2847,Heavy,Merc
+379,Quickdraw QKD-5A,60,"1,196",31,Skirmisher,TR:SW RS:SW,Introductory,3002,Heavy,Merc
+380,Rifleman RFL-3N,60,"1,039",26,Sniper,TR:3039 RSFP:Wave 1,Introductory,2770,Heavy,Merc
+381,Bombardier BMB-10D,65,"1,340",35,Missile Boat,TR:SW RS:SW,Introductory,2866,Heavy,Merc
+382,Catapult CPLT-C1,65,"1,399",32,Missile Boat,TR:SW RSFP:Wave 1,Introductory,2561,Heavy,Merc
+383,Crusader CRD-3R,65,"1,317",32,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2752,Heavy,Merc
+384,Thunderbolt TDR-5D,65,"1,231",35,Brawler,TR:SW RS:SW,Introductory,2821,Heavy,Merc
+385,Thunderbolt TDR-5S,65,"1,335",36,Brawler,TR:SW RSFP:Wave 1,Introductory,2505,Heavy,Merc
+386,Thunderbolt TDR-5SE,65,"1,414",35,Skirmisher,TR:SW RSFP:Wave 1,Introductory,3000,Heavy,Merc
+387,Archer ARC-2R,70,"1,477",39,Missile Boat,TR:3039 RSFP:Wave 1,Introductory,2474,Heavy,Merc
+388,Grasshopper GHR-5H,70,"1,427",37,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2780,Heavy,Merc
+389,Guillotine GLT-4L,70,"1,400",35,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2825,Heavy,Merc
+390,Guillotine GLT-4P,70,"1,376",34,Skirmisher,TR:SW RS:SW,Introductory,2833,Heavy,Merc
+391,Viper VP-1,70,"1,609",34,Brawler,RG32 RG32,Standard,2832,Heavy,Merc
+392,Viper VP-5,70,"1,539",36,Brawler,RG32 RG32,Introductory,2958,Heavy,Merc
+393,Warhammer WHM-6R,70,"1,299",32,Brawler,TR:3039 RSFP:Wave 1,Introductory,2515,Heavy,Merc
+394,Black Knight BL-7-KNT,75,"1,443",34,Brawler,TR:SW RSFP:Wave 2,Introductory,2809,Heavy,Merc
+395,Marauder (Bounty Hunter-3015),75,"1,919",45,Juggernaut,BD:BH RG06,Standard,3015,Heavy,Merc
+396,Marauder MAD-3R,75,"1,363",35,Sniper,TR:3039 RSFP:Wave 1,Introductory,2819,Heavy,Merc
+397,Orion ON1-K,75,"1,429",39,Brawler,TR:SW RSFP:Wave 2,Introductory,2525,Heavy,Merc
+398,Orion ON1-V,75,"1,298",35,Brawler,TR:SW RS:SW,Introductory,2799,Heavy,Merc
+399,Orion ON1-VA,75,"1,328",39,Juggernaut,TR:SW RS:SW,Introductory,2901,Heavy,Merc
+400,Stalker STK-4P,75,"1,461",39,Juggernaut,TR:SW RS:3039u,Introductory,2998,Heavy,Merc
+401,Awesome AWS-8Q,80,"1,605",39,Sniper,TR:SW RSFP:Wave 1,Introductory,2665,Assault,Merc
+402,Awesome AWS-8T,80,"1,593",39,Missile Boat,TR:SW RS:SW,Introductory,2815,Assault,Merc
+403,Charger CGR-1A1,80,981,18,Scout,TR:SW RS:SW,Introductory,2665,Assault,Merc
+404,Goliath GOL-1H,80,"1,449",39,Sniper,TR:3039 RS:3039u,Introductory,2652,Assault,Merc
+405,Victor VTR-9B,80,"1,378",36,Skirmisher,TR:SW RSFP:Wave 2,Introductory,2510,Assault,Merc
+406,Zeus ZEU-6S,80,"1,348",35,Sniper,TR:SW RSFP:Wave 2,Introductory,2898,Assault,Merc
+407,BattleMaster BLR-1G,85,"1,519",40,Brawler,TR:SW RSFP:Wave 1,Introductory,2633,Assault,Merc
+408,Longbow LGB-0W,85,"1,337",36,Missile Boat,TR:3039 RSFP:Wave 2,Introductory,2529,Assault,Merc
+409,Longbow LGB-0W2,85,"1,410",38,Missile Boat,RGv1 RG20,Introductory,2531,Assault,Merc
+410,Longbow LGB-7Q,85,"1,618",45,Missile Boat,TR:3058U RSFP:Wave 2,Introductory,2610,Assault,Merc
+411,Longbow LGB-8C,85,"1,653",45,Missile Boat,RGv1 RG20,Introductory,2615,Assault,Merc
+412,Stalker STK-3F,85,"1,559",42,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2594,Assault,Merc
+413,Stalker STK-3H,85,"1,624",42,Missile Boat,TR:SW RS:SW,Introductory,2638,Assault,Merc
+414,Stalker STK-4N,85,"1,558",41,Juggernaut,TR:SW RS:SW,Introductory,2876,Assault,Merc
+415,Cyclops CP-10-Q,90,"1,584",44,Missile Boat,TR:SW RS:SW,Introductory,2801,Assault,Merc
+416,Cyclops CP-10-Z,90,"1,317",34,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2710,Assault,Merc
+417,Banshee BNC-3E,95,"1,422",38,Sniper,TR:SW RSFP:Wave 2,Introductory,2475,Assault,Merc
+418,Atlas AS7-A,100,"1,787",52,Juggernaut,TR:SW RS:SW,Introductory,2954,Assault,Merc
+419,Atlas AS7-D,100,"1,897",52,Juggernaut,TR:SW RSFP:Wave 2,Introductory,2755,Assault,Merc
+420,Atlas AS7-RS,100,"1,849",48,Juggernaut,TR:SW RS:SW,Introductory,2892,Assault,Merc
